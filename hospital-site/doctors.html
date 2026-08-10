@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Doctors — Meridian Health Centre</title>
+<meta name="description" content="Meet the specialists at Meridian Health Centre — filter by department to find the right doctor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="emergency-strip">Medical emergency? Call our 24/7 line: <a href="tel:+2348030000001">+234 803 000 0001</a></div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="dot"></span>Meridian Health</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="departments.html">Departments</a></li>
+      <li><a href="doctors.html" class="active">Doctors</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="appointments.html">Appointments</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="nav-cta"><a href="appointments.html" class="btn btn-outline-light">Book Appointment</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <p class="eyebrow">Our Team</p>
+    <h1>Meet the specialists.</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="dept-filters" role="tablist" aria-label="Filter doctors by department">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="cardiology">Cardiology</button>
+      <button class="filter-btn" data-filter="paediatrics">Paediatrics</button>
+      <button class="filter-btn" data-filter="orthopaedics">Orthopaedics</button>
+      <button class="filter-btn" data-filter="maternity">Maternity</button>
+      <button class="filter-btn" data-filter="general">General Medicine</button>
+    </div>
+
+    <div class="doctor-grid">
+
+      <div class="doctor-card" data-department="cardiology">
+        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=600&auto=format&fit=crop" alt="Dr. Adaeze Okonkwo">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">Cardiology</span>
+          <h3>Dr. Adaeze Okonkwo</h3>
+          <p>15 years' experience in interventional cardiology and hypertension management.</p>
+        </div>
+      </div>
+
+      <div class="doctor-card" data-department="paediatrics">
+        <img src="https://images.unsplash.com/photo-1637059824899-a441006a6875?q=80&w=600&auto=format&fit=crop" alt="Dr. Emeka Osaigbovo">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">Paediatrics</span>
+          <h3>Dr. Emeka Osaigbovo</h3>
+          <p>Focused on childhood development, immunisation, and family-centred paediatric care.</p>
+        </div>
+      </div>
+
+      <div class="doctor-card" data-department="orthopaedics">
+        <img src="https://images.unsplash.com/photo-1651008376811-b90baee60c1f?q=80&w=600&auto=format&fit=crop" alt="Dr. Tobenna Igbinedion">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">Orthopaedics</span>
+          <h3>Dr. Tobenna Igbinedion</h3>
+          <p>Specialist in sports injuries, joint replacement, and post-fracture rehabilitation.</p>
+        </div>
+      </div>
+
+      <div class="doctor-card" data-department="maternity">
+        <img src="https://images.unsplash.com/photo-1651008376811-9a37e3f5c0a4?q=80&w=600&auto=format&fit=crop" alt="Dr. Ifeoma Aigbokhan">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">Maternity & Obstetrics</span>
+          <h3>Dr. Ifeoma Aigbokhan</h3>
+          <p>12 years supporting safe deliveries and high-risk pregnancy management.</p>
+        </div>
+      </div>
+
+      <div class="doctor-card" data-department="general">
+        <img src="https://images.unsplash.com/photo-1622902046580-2b47f47f5471?q=80&w=600&auto=format&fit=crop" alt="Dr. Kelechi Uwagboe">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">General Medicine</span>
+          <h3>Dr. Kelechi Uwagboe</h3>
+          <p>Your first point of contact for diagnosis, referrals, and ongoing primary care.</p>
+        </div>
+      </div>
+
+      <div class="doctor-card" data-department="cardiology">
+        <img src="https://images.unsplash.com/photo-1651008376811-4e6ccf12cf1e?q=80&w=600&auto=format&fit=crop" alt="Dr. Osaretin Idahosa">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">Cardiology</span>
+          <h3>Dr. Osaretin Idahosa</h3>
+          <p>ECG interpretation and long-term cardiac risk management for adult patients.</p>
+        </div>
+      </div>
+
+      <div class="doctor-card" data-department="orthopaedics">
+        <img src="https://images.unsplash.com/photo-1637059824899-63be8dccc7a9?q=80&w=600&auto=format&fit=crop" alt="Dr. Blessing Eghosa">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">Orthopaedics</span>
+          <h3>Dr. Blessing Eghosa</h3>
+          <p>Focused on physiotherapy-guided recovery and non-surgical joint treatment.</p>
+        </div>
+      </div>
+
+      <div class="doctor-card" data-department="general">
+        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=600&auto=format&fit=crop&flip=h" alt="Dr. Precious Enabulele">
+        <div class="doctor-card-body">
+          <span class="doctor-dept">General Medicine</span>
+          <h3>Dr. Precious Enabulele</h3>
+          <p>Runs Meridian's walk-in general clinic, Monday through Saturday.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Meridian Health</div>
+        <p style="font-size:0.86rem;">Patient-first medical care in Benin City — specialists, diagnostics, and pharmacy under one roof.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="doctors.html">Our Doctors</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Patients</h4>
+        <ul>
+          <li><a href="appointments.html">Book Appointment</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon – Sat: 7:00 AM – 8:00 PM</li>
+          <li>Emergency: 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span class="current-year">2026</span> Meridian Health Centre. All rights reserved.</span>
+      <span>New Benin Road, Benin City, Edo State</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book an Appointment — Meridian Health Centre</title>
+<meta name="description" content="Book a consultation with a Meridian Health Centre specialist — pick your department, doctor, and preferred time.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="emergency-strip">Medical emergency? Call our 24/7 line: <a href="tel:+2348030000001">+234 803 000 0001</a></div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="dot"></span>Meridian Health</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="departments.html">Departments</a></li>
+      <li><a href="doctors.html">Doctors</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="appointments.html" class="active">Appointments</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li class="nav-cta"><a href="appointments.html" class="btn btn-outline-light">Book Appointment</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <p class="eyebrow">Appointments</p>
+    <h1>Book your visit in minutes.</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container grid-2" style="align-items:flex-start;">
+    <div class="reveal">
+      <p class="eyebrow">Before You Book</p>
+      <h2>What to expect.</h2>
+      <p>Fill in the form and our front desk will confirm your slot by phone or email within a few hours during working hours. New patients should arrive 20 minutes early to complete a short registration form.</p>
+      <ul style="margin-top:24px;">
+        <li style="padding:12px 0; border-bottom:1px dashed var(--line); display:flex; justify-content:space-between;"><span>Consultation Hours</span><strong>7:00 AM – 8:00 PM</strong></li>
+        <li style="padding:12px 0; border-bottom:1px dashed var(--line); display:flex; justify-content:space-between;"><span>Weekend Hours</span><strong>Sat: 8:00 AM – 4:00 PM</strong></li>
+        <li style="padding:12px 0; display:flex; justify-content:space-between;"><span>Emergency</span><strong>24/7, no appointment needed</strong></li>
+      </ul>
+    </div>
+
+    <div class="reveal">
+      <div class="form-card">
+        <h3 class="mt-0" style="margin-bottom:24px;">Book an Appointment</h3>
+        <form data-demo-form novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="a-name">Full Name</label>
+              <input type="text" id="a-name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="a-phone">Phone Number</label>
+              <input type="tel" id="a-phone" name="phone" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="a-email">Email Address</label>
+            <input type="email" id="a-email" name="email" required>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="a-dept">Department</label>
+              <select id="a-dept" name="department" required>
+                <option value="">Select</option>
+                <option>General Medicine</option>
+                <option>Cardiology</option>
+                <option>Paediatrics</option>
+                <option>Orthopaedics</option>
+                <option>Maternity & Obstetrics</option>
+                <option>Neurology</option>
+                <option>Ophthalmology</option>
+                <option>Dental Care</option>
+                <option>Dermatology</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="a-doctor">Preferred Doctor (optional)</label>
+              <input type="text" id="a-doctor" name="doctor" placeholder="No preference">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="a-date">Preferred Date</label>
+              <input type="date" id="a-date" name="date" required>
+            </div>
+            <div class="field">
+              <label for="a-time">Preferred Time</label>
+              <input type="time" id="a-time" name="time" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="a-reason">Reason for Visit</label>
+            <textarea id="a-reason" name="reason" placeholder="Briefly describe your symptoms or reason for the visit" required></textarea>
+          </div>
+          <p class="form-note">This form is a front-end demo — no data is sent to a server. For emergencies, call the line above instead.</p>
+          <button type="submit" class="btn btn-primary" style="width:100%; margin-top:8px;">Request Appointment</button>
+        </form>
+        <div class="form-success">Thank you — your appointment request has been received. Our front desk will confirm shortly.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Meridian Health</div>
+        <p style="font-size:0.86rem;">Patient-first medical care in Benin City — specialists, diagnostics, and pharmacy under one roof.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="doctors.html">Our Doctors</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Patients</h4>
+        <ul>
+          <li><a href="appointments.html">Book Appointment</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon – Sat: 7:00 AM – 8:00 PM</li>
+          <li>Emergency: 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span class="current-year">2026</span> Meridian Health Centre. All rights reserved.</span>
+      <span>New Benin Road, Benin City, Edo State</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

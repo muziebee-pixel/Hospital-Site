@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Meridian Health Centre</title>
+<meta name="description" content="Get in touch with Meridian Health Centre — location, phone lines, and message form.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="emergency-strip">Medical emergency? Call our 24/7 line: <a href="tel:+2348030000001">+234 803 000 0001</a></div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><span class="dot"></span>Meridian Health</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="departments.html">Departments</a></li>
+      <li><a href="doctors.html">Doctors</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="appointments.html">Appointments</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li class="nav-cta"><a href="appointments.html" class="btn btn-outline-light">Book Appointment</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <p class="eyebrow">Contact</p>
+    <h1>We're here to help.</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container grid-2" style="align-items:flex-start;">
+    <div class="reveal">
+      <div class="form-card">
+        <h3 class="mt-0" style="margin-bottom:24px;">Send a Message</h3>
+        <form data-demo-form novalidate>
+          <div class="field">
+            <label for="c-name">Full Name</label>
+            <input type="text" id="c-name" name="name" required>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="c-email">Email</label>
+              <input type="email" id="c-email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="c-phone">Phone</label>
+              <input type="tel" id="c-phone" name="phone">
+            </div>
+          </div>
+          <div class="field">
+            <label for="c-subject">Subject</label>
+            <select id="c-subject" name="subject" required>
+              <option value="">Select</option>
+              <option>General Enquiry</option>
+              <option>Billing Question</option>
+              <option>Feedback / Complaint</option>
+              <option>Insurance / HMO Question</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="c-message">Message</label>
+            <textarea id="c-message" name="message" required></textarea>
+          </div>
+          <p class="form-note">This form is a front-end demo — no data is sent to a server. For medical emergencies, call the line above instead.</p>
+          <button type="submit" class="btn btn-primary" style="width:100%; margin-top:8px;">Send Message</button>
+        </form>
+        <div class="form-success">Thanks for reaching out — our team will respond within 24 hours.</div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <p class="eyebrow">Visit Us</p>
+      <h2>New Benin Road, Benin City.</h2>
+      <ul style="margin-bottom:28px;">
+        <li style="padding:14px 0; border-bottom:1px dashed var(--line);"><strong>Address:</strong> 27 New Benin Road, Benin City, Edo State, Nigeria</li>
+        <li style="padding:14px 0; border-bottom:1px dashed var(--line);"><strong>Front Desk:</strong> +234 803 000 0002</li>
+        <li style="padding:14px 0; border-bottom:1px dashed var(--line);"><strong>Emergency Line:</strong> +234 803 000 0001</li>
+        <li style="padding:14px 0; border-bottom:1px dashed var(--line);"><strong>Email:</strong> care@meridianhealth.ng</li>
+        <li style="padding:14px 0;"><strong>Hours:</strong> Mon – Sat, 7:00 AM – 8:00 PM · Emergency 24/7</li>
+      </ul>
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=New%20Benin%20Road%2C%20Benin%20City%2C%20Edo%20State%2C%20Nigeria&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Meridian Health Centre location on Google Maps">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Meridian Health</div>
+        <p style="font-size:0.86rem;">Patient-first medical care in Benin City — specialists, diagnostics, and pharmacy under one roof.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="doctors.html">Our Doctors</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Patients</h4>
+        <ul>
+          <li><a href="appointments.html">Book Appointment</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul>
+          <li>Mon – Sat: 7:00 AM – 8:00 PM</li>
+          <li>Emergency: 24/7</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span class="current-year">2026</span> Meridian Health Centre. All rights reserved.</span>
+      <span>New Benin Road, Benin City, Edo State</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
